@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>State</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background-color: Grey;
+}
+header {
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+nav {
+  float: left;
+  width: 20%;
+  height: 600px;
+  background: #ccc;
+  padding: 20px;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color:coral;
+  height:600px;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: right;
+  color: Red;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>The NorthEast India</h2>
+<p>The region shares an international border of 5,182 kilometres (3,220 mi) (about 99 percent of its total geographical boundary) with several neighbouring countries – 1,395 kilometres (867 mi) with Tibet in the north, 1,640 kilometres (1,020 mi) with Myanmar in the east, 1,596 kilometres (992 mi) with Bangladesh in the south-west, 97 kilometres (60 mi) with Nepal in the west, and 455 kilometres (283 mi) with Bhutan in the north-west.[18] It comprises an area of 262,230 square kilometres (101,250 sq mi), almost 8 percent of that of India. The Siliguri Corridor connects the region to the rest of mainland India. .</p>
+<header>
+  <img src="1.jpeg" alt="NorthEast" style="width:100%;height:800px;"> 
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="8.html" target="iframe_a">Sikkim</a></li><br><br>
+      <li><a href="1.html" target="iframe_a">Arunachal Pradash</a></li><br><br>
+      <li><a href="2.html" target="iframe_a">Assam</a></li><br><br>
+      <li><a href="3.html" target="iframe_a">Manipur</a></li><br><br>
+      <li><a href="4.html" target="iframe_a">Meghalaya</a></li><br><br>
+      <li><a href="5.html" target="iframe_a">Mizoram</a></li><br><br>
+      <li><a href="6.html" target="iframe_a">Nagaland</a></li><br><br>
+      <li><a href="7.html" target="iframe_a">Tripura</a></li><br><br>
+    </ul>
+  </nav>
+   <article>
+    <iframe src="1.html" name="iframe_a" height="100%" width="100%" title="Iframe Example"></iframe>
+  </article>
+</section>
+
+<footer>
+            <div class="menu">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+</footer>
+</body>
+</html>
