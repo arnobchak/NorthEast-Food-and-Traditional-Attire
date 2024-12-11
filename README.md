@@ -1,18 +1,64 @@
-North East Traditional Food and Attire
-This website is dedicated to highlighting the diverse cuisines and clothing traditions from North East India. The North Eastern states covered are Assam, Meghalaya, Manipur, Nagaland, Tripura, Arunachal Pradesh, Sikkim and Mizoram.
+# Northeast Food and Traditional Attire
 
-About
-The food and attire of North Eastern tribes and communities have rich cultural histories. This site aims to document and preserve knowledge of traditional practices, ingredients, cooking techniques, fabrics, weaving methods and more.
+## Overview
+Northeast Food and Traditional Attire is a website that showcases the diverse and vibrant cuisines and traditional clothing from the Northeast region of India. It aims to promote the rich cultural heritage of the region through an engaging and visually appealing platform.
 
-We hope to provide an insightful glimpse into North East India's lesser known but unique ethnic heritage.
+## Features
+- **Food Gallery**: Display traditional dishes from Northeast India.
+- **Attire Showcase**: Highlight the traditional clothing of various tribes.
+- **Interactive Design**: Smooth navigation and responsive layout for an enhanced user experience.
+- **Contact Section**: Visitors can reach out for collaborations or inquiries.
 
-Features
-Recipes for dishes from each North Eastern state
-Articles exploring key ingredients used like fermented soybean, bamboo shoots, wild greens etc.
-Profiles on cooking utensils and equipment used in the region
-Photographs and illustrations of indigenous attire like phanek, galuk, jainsem
-Descriptions of fabrics like eri silk, muga silk and traditional weaving patterns
-Tribal ornamentation and jewellery like naga headgear, mizo necklaces
-Glossary explaining food and fashion related terms
+## Tech Stack
+- **Frontend**: HTML, CSS, JavaScript
 
-We welcome contributions from food and fashion experts on the culture of North Eastern states. Please contact us if any problem about website.
+---
+
+## Installation Guide
+
+### Prerequisites
+Ensure you have a modern web browser installed (e.g., Chrome, Firefox, Edge).
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/northeast-food-attire.git
+   cd northeast-food-attire
+   ```
+2. Open the project in your code editor.
+3. Launch the website:
+   - Open the `index.html` file in your browser to view the site locally.
+
+---
+
+## Project Structure
+- **index.html**: Main HTML file for the website.
+- **css/**: Contains CSS files for styling.
+  - `styles.css`: Primary stylesheet for the website.
+- **js/**: Contains JavaScript files for interactivity.
+  - `script.js`: Main JavaScript file for the website.
+- **images/**: Directory for storing images used on the site.
+
+---
+
+## Contributing
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. Open a Pull Request.
+
+---
+
+## License
+This project is licensed under the MIT License.
+
