@@ -22,7 +22,7 @@ Ensure you have a modern web browser installed (e.g., Chrome, Firefox, Edge).
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/NorthEast-Food-and-Traditional-Attire.git
+   git clone https://github.com/arnobchak/NorthEast-Food-and-Traditional-Attire.git
    cd NorthEast-Food-and-Traditional-Attire
    ```
 2. Open the project in your code editor.
